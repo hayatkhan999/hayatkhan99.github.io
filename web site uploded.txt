@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hayat Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f2f2f2;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+        }
+
+        .box {
+            background: white;
+            width: 80%;
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hayat Website</h1>
+        <p>My First Website</p>
+    </header>
+
+    <div class="box">
+        <h2>Welcome 👋</h2>
+        <p>I am learning Web Development.</p>
+
+        <button>Contact Me</button>
+    </div>
+<div class="box">
+
+<script>
+    function sayHello() {
+        alert("Hello! Welcome to Hayat Website");
+    }
+function sendMessage() {
+    let name = document.getElementById("name").value;
+    let message = document.getElementById("message").value;
+
+    alert("Thank you " + name + "! Your message is: " + message);
+}
+</script>
+<div class="box">
+<h2>Contact Me</h2>
+<input type="text" id="name" placeholder="Your Name">
+<br><br><textarea id="message" placeholder="Your Message"></textarea>
+<br><br>
+<button onclick="sendMessage()">Send</button>
+</div>
+</body>
+</html>google-site-verification: googlee3f81596e79e94e1.html
